@@ -74,7 +74,7 @@ h1{
     max-width: 512px; 
 }
 .hero-image{
-    background-color: #6e727e    ;
+    background-color: #6e727e;
     width: 512px;
     height: 325px;
     display: flex;
@@ -85,26 +85,111 @@ h1{
     color: #E5E7EB;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* INFORMATION SECTION */
 .info-section{
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0px auto;
+    justify-content: center;
 }
+
+h2{
+    margin-bottom: 50px;    
+    font-size: 36px;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info>p{
+    text-align: center;
+    margin-top: 10px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+
 /* Quotation-section */
 .quotation-section{
     height: 40vh;
     background-color: #E5E7EB;
+    
+}
+.quotation-wrapper{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quotation-wrapper>p{
+    font-size: 36px;
+    font-weight: normal;
+    color: #1F2937;
+    font-style: italic;
+}
+.quotation-wrapper>strong{
+    font-size: 20px;
+    margin-left: auto;
 }
 /* SIGNUP SECTION */
 .signup-section{
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    background-color: #3882F6;
+    width: 800px;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.signup-info{
+    color: white;
+}
+button{
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-color: white;
+    background-color:#3882F6 ;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer>div{
+    padding: 15px;
+    
+}
+footer>div>p{
+    color: white;
 }
